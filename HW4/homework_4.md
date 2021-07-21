@@ -25,8 +25,8 @@ What do you do?
 
 	e. under pcm10.app, click on Quit pcm10.app, 
 
-	f. click on Save Log File in the popup window and you will be prompted to give 
-	a file name and location for the log file, 
+	f. click on Save Log File in the popup window and you will be prompted to give \
+\	a file name and location for the log file, 
 
 	g. open and read the log file with a text editor.
 
