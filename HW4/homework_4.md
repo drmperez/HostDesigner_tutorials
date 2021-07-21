@@ -13,15 +13,15 @@ or else they are missing entirely.
 
 What do you do?
 
-### 1.	Investigate to see what parameters are being used for this molecule. In PCModel10:
+**1. Investigate to see what parameters are being used for this molecule. In PCModel10:**
 
-a. Open the dimethoxyoxime.pcm file, 
-b. select MM3 under the ForceField menu, 
-c. under the Compute menu, click on Full Energy Printout, 
-d. under the Compute menu, click on Minimize, 
-e. under pcm10.app, click on Quit pcm10.app, 
-f. click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
-g. open and read the log file with a text editor.
+	1. Open the dimethoxyoxime.pcm file,
+	1. select MM3 under the ForceField menu,
+	1. under the Compute menu, click on Full Energy Printout, 
+	1. under the Compute menu, click on Minimize, 
+	1. under pcm10.app, click on Quit pcm10.app, 
+	1. click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
+	1. open and read the log file with a text editor.
 
 Look at this log file.  Given the MM3 user manual, can you make sense out of what is being 
 displayed on each interaction line?  Normally you will not be messing with van der Waals, 
@@ -32,8 +32,8 @@ These are listed under Bond Terms, Angle Terms, and Torsion Terms.
 * What is the code using for the C=N-O angle?
 * What is the code using for the C=N-O-H torsion angle?
 
-### 2.	Next, try to do this with MENGINE.  You can get the analogous full printout by adding 
-the following line to the conpcm file:
+**2. Next, try to do this with MENGINE.  You can get the analogous full printout by adding 
+the following line to the conpcm file:**
 
 	iprint 1
 
@@ -52,8 +52,10 @@ missing for the structure and if you view pcmod.par with a text editor you can s
 what was missing and what was assigned.
 
 
-### 3.	Now that you see what was missing, you could read in an added parameter file that
-contains the missing parameters prior to optimization.  To do this with MENGINE, rename the
+**3. Now that you see what was missing, you could read in an added parameter file that
+contains the missing parameters prior to optimization.**
+
+To do this with MENGINE, rename the
 pcmod.par file to add.prm and include the following line in the conpcm file:
 
 	addpar add.prm
@@ -77,9 +79,13 @@ file in which you change the default C-C distance from 1.5247 angstroms to 1.600
 Optimize the structure again using the added parameters and verify that the C-C 
 distance gets longer.
 
-### 4.	You can also read in added parameters when using PCModel10.  Try it.  After getting set to minimize the structure, but before you hit Compute/Minimize, go to the Options menu and select Use Added Parameters.  A file open window will appear asking you to select the added parameter files.  Select the add.prm file and optimize the structure.  Is the resulting structure different?  Examine the log file and verify that the added parameters are now being applied.
+**4. You can also read in added parameters when using PCModel10.**
 
-### 5.	We want to verify that the parameters are giving a structural features that are consistent with experiment.  One way to do this is compare bond lengths, bond angles, and dihedral angles with average values observed in the Cambridge Database.  Here is what the average experimental data is from 1118 dialkylated oxime structures says:
+Try it.  After getting set to minimize the structure, but before you hit Compute/Minimize, go to the Options menu and select Use Added Parameters.  A file open window will appear asking you to select the added parameter files.  Select the add.prm file and optimize the structure.  Is the resulting structure different?  Examine the log file and verify that the added parameters are now being applied.
+
+**5. We want to verify that the parameters are giving a structural features that are consistent with experiment.**
+
+One way to do this is compare bond lengths, bond angles, and dihedral angles with average values observed in the Cambridge Database.  Here is what the average experimental data is from 1118 dialkylated oxime structures says:
 
 - C=N distance 1.28 +/- 0.02
 
@@ -91,7 +97,9 @@ distance gets longer.
 
 Use the Query feature in PCModel10 to compare these values to what the MM3 model is currently giving when using add.prm.  What you should see is that the C=N distance is pretty good, the N-O distance is computed too short, the C=N-O angle is computed too large, and the C=N-O-H torsion angle is correct.
 
-(6)	 You could decide to adjust the parameters to get a better agreement with experiment.  The PCModel10 interface provides a fast way to do this.  The approach is to open the input file, choose the use added parameters, optimize the structure, and query the N-O and C=N-O angles so that you can see the values on the screen.  
+**6. You could decide to adjust the parameters to get a better agreement with experiment.**
+
+The PCModel10 interface provides a fast way to do this.  The approach is to open the input file, choose the use added parameters, optimize the structure, and query the N-O and C=N-O angles so that you can see the values on the screen.  
 
 Open a terminal window and open the add.prm file in a text editor.  Modify one or more parameters by changing their values.  Save the add.prm file.  Tell PCModel10 to use this modified version of the added parameters.  You have to first toggle the Use Added Parameters off, pick it again, and then choose the updated add.prm file.  Now minimize the structure.  The query values should change showing the effect of the changed parameters.  Iteratively modify the stretch and bend parameters to achieve a better agreement with the experimental data.
 
