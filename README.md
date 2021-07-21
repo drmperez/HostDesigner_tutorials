@@ -1,6 +1,6 @@
 # HostDesigner Tutorials
 
-These exercises were created by Ben Hay of Supramolecular Design Institute. 
+These exercises were created Supramolecular Design Institute and edited for this site by @drmperez. 
 
 The [HostDesigner](https://sourceforge.net/projects/hostdesigner/) code can be found at:
 
