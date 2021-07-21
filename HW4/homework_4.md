@@ -1,14 +1,19 @@
 # Homework 4
 
-Study pages 78 thru 167 in the MM3 manual.  Also, study pages 91 – 105 and 112 – 115 of the HostDesigner manual.  
+Study pages 78 thru 167 in the MM3 manual.  Also, study pages 91 – 105 and 112 – 115 of the 
+HostDesigner manual.  
 
-This assignment uses dimethyloxime as an example.  If you recall, this structure exhibited some squirrely behavior upon minimizing in the MM3 model. 
+This assignment uses dimethyloxime as an example.  If you recall, this structure exhibited 
+some squirrely behavior upon minimizing in the MM3 model. 
 
-Try it again.  Open this dimethyloxime.pcm file in PCModel10, optimize the structure with MM3, and what you see is that the C=N-O angle goes linear and the C=N-O-H torsion goes to 90 deg.  When you see behavior like this, either the parameters are incorrectly assigned or else they are missing entirely.
+Try it again.  Open this dimethyloxime.pcm file in PCModel10, optimize the structure with 
+MM3, and what you see is that the C=N-O angle goes linear and the C=N-O-H torsion goes to 
+90 deg.  When you see behavior like this, either the parameters are incorrectly assigned 
+or else they are missing entirely.
 
 What do you do?
 
-## 1.	Investigate to see what parameters are being used for this molecule. In PCModel10:
+### 1.	Investigate to see what parameters are being used for this molecule. In PCModel10:
 
 a. Open the dimethoxyoxime.pcm file, 
 
@@ -20,17 +25,23 @@ d. under the Compute menu, click on Minimize,
 
 e. under pcm10.app, click on Quit pcm10.app, 
 
-f. click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
+f. click on Save Log File in the popup window and you will be prompted to give a file name
+ and location for the log file, 
 
 g. open and read the log file with a text editor.
 
-Look at this log file.  Given the MM3 user manual, can you make sense out of what is being displayed on each interaction line?  Normally you will not be messing with van der Waals, charge, dipole, and cross-term (stretch-bend, bend-bend, stretch-torsion) parameters.  Thus, you want to focus on the stretching, bending, and torsion interactions.  These are listed under Bond Terms, Angle Terms, and Torsion Terms. 
+Look at this log file.  Given the MM3 user manual, can you make sense out of what is being 
+displayed on each interaction line?  Normally you will not be messing with van der Waals, 
+charge, dipole, and cross-term (stretch-bend, bend-bend, stretch-torsion) parameters.  
+Thus, you want to focus on the stretching, bending, and torsion interactions.  
+These are listed under Bond Terms, Angle Terms, and Torsion Terms. 
 
-What is the code using for the C=N-O angle?  What is the code using for the C=N-O-H torsion angle?
+* What is the code using for the C=N-O angle?
+* What is the code using for the C=N-O-H torsion angle?
 
-## 2.	Next, try to do this with MENGINE.  You can get the analogous full printout by adding the following line to the conpcm file:
+### 2.	Next, try to do this with MENGINE.  You can get the analogous full printout by adding the following line to the conpcm file:
 
-iprint 1
+	iprint 1
 
 After the calculation runs, the pcmod.out file will contain a full printout of all interactions.   Compare the contents of the pcmod.out file with the log file from PCModel10.  Are there any differences?  Does optimized geometry look different from what PCModel10 produced?  Why is it different?
 
