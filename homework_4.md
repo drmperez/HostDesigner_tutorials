@@ -1,4 +1,4 @@
-#Homework 4
+# Homework 4
 
 Study pages 78 thru 167 in the MM3 manual.  Also, study pages 91 – 105 and 112 – 115 of the HostDesigner manual.  
 
@@ -8,7 +8,15 @@ Try it again.  Open this dimethyloxime.pcm file in PCModel10, optimize the struc
 
 What do you do?
 
-(1)	Investigate to see what parameters are being used for this molecule.  In PCModel10, here is how to do it.  (a) Open the dimethoxyoxime.pcm file, (b) select MM3 under the ForceField menu, (c) under the Compute menu, click on Full Energy Printout, (d) under the Compute menu, click on Minimize, (e) under pcm10.app, click on Quit pcm10.app, (f) click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, (g) open and read the log file with a text editor.
+## (1)	Investigate to see what parameters are being used for this molecule.  In PCModel10, here is how to do it.  
+
+	(a) Open the dimethoxyoxime.pcm file, 
+	(b) select MM3 under the ForceField menu, 
+	(c) under the Compute menu, click on Full Energy Printout, 
+	(d) under the Compute menu, click on Minimize, 
+	(e) under pcm10.app, click on Quit pcm10.app, 
+	(f) click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
+	(g) open and read the log file with a text editor.
 
 Look at this log file.  Given the MM3 user manual, can you make sense out of what is being displayed on each interaction line?  Normally you will not be messing with van der Waals, charge, dipole, and cross-term (stretch-bend, bend-bend, stretch-torsion) parameters.  Thus, you want to focus on the stretching, bending, and torsion interactions.  These are listed under Bond Terms, Angle Terms, and Torsion Terms. 
 
