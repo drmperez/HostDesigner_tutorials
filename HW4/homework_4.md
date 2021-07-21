@@ -87,7 +87,7 @@ contains the missing parameters prior to optimization.**
 	file and optimize the structure.  Is the resulting structure different?  Examine the log file and verify that the added 
 	parameters are now being applied.
 
-5. **We want to verify that the parameters are giving a structural features that are consistent with experiment.**
+5. **Verify that the parameters are giving a structural features that are consistent with experiment.**
 
 	One way to do this is compare bond lengths, bond angles, and dihedral angles with average values observed 
 	in the Cambridge Database.  Here is what the average experimental data is from 1118 dialkylated oxime structures says:
