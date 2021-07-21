@@ -48,16 +48,16 @@ What do you do?
 
 	The behavior in MENGINE is different than in PCModel10.  The difference is that MENGINE 
 	will attempt to estimate any missing parameters and, if it estimates any, then they will 
-	be used in the calculation and written to a file named pcmod.par.  If a file named
-	pcmod.par is produced by MENGINE, then this tells you that at least one parameter was
+	be used in the calculation and written to a file named `pcmod.par`.  If a file named
+	`pcmod.par` is produced by MENGINE, then this tells you that at least one parameter was
 	missing for the structure and if you view pcmod.par with a text editor you can see
 	what was missing and what was assigned.
 
 3. **Now that you see what was missing, you could read in an added parameter file that
 contains the missing parameters prior to optimization.**
 
-	To do this with MENGINE, rename the
-	pcmod.par file to add.prm and include the following line in the conpcm file:
+	To do this with MENGINE, rename the `pcmod.par` file to `add.prm` 
+	and include the following line in the `conpcm` file:
 
 		addpar add.prm
 
@@ -66,12 +66,12 @@ contains the missing parameters prior to optimization.**
 	nothing was missing.
 
 	Note that you can name the added parameter file anything you like.  Here the name add.prm is
-	arbitrary and was used so it would be different from pcmod.prm.  This was so you can see
-	that the pcmod.par is not produced when the add.prm file is read in.
+	arbitrary and was used so it would be different from `pcmod.prm.`  This was so you can see
+	that the `pcmod.par` is not produced when the `add.prm` file is read in.
 
 	Note:
 	You can create your own added parameter file by copying any parameter line from a 
-	default parameter file, either mm3.prm or mmff94.prm, and pasting it into the file.
+	default parameter file, either `mm3.prm` or `mmff94.prm,` and pasting it into the file.
 	In other words, the format for each type of interaction in this added parameter 
 	file is the same as the format seen in the default parameter file.
 
@@ -82,34 +82,49 @@ contains the missing parameters prior to optimization.**
 
 4. **You can also read in added parameters when using PCModel10.**
 
-	Try it.  After getting set to minimize the structure, but before you hit Compute/Minimize, go to the Options menu and select 
-	Use Added Parameters. A file open window will appear asking you to select the added parameter files.  Select the add.prm 
-	file and optimize the structure.  Is the resulting structure different?  Examine the log file and verify that the added 
-	parameters are now being applied.
+	Try it.  After getting set to minimize the structure, but before you hit 
+	Compute/Minimize, go to the Options menu and select 
+	Use Added Parameters. A file open window will appear asking you 
+	to select the added parameter files.  Select the `add.prm` 
+	file and optimize the structure.  
+	
+	1. Is the resulting structure different?  
+	2. Examine the log file, are the added parameters are now being applied?
 
 5. **Verify that the parameters are giving a structural features that are consistent with experiment.**
 
-	One way to do this is compare bond lengths, bond angles, and dihedral angles with average values observed 
-	in the Cambridge Database.  Here is what the average experimental data is from 1118 dialkylated oxime structures says:
+	One way to do this is compare bond lengths, bond angles, and dihedral angles
+	with average values observed in the Cambridge Database.  Here is what the average 
+	experimental data is from 1118 dialkylated oxime structures says:
 
 	1. C=N distance 1.28 +/- 0.02
 	2. N-O distance 1.40 +/- 0.02
 	3. C-N-O angle 113 +/- 2 deg
 	4. C=N-O-H dihedral angle is 180 +/- 7 deg
 
-	Use the Query feature in PCModel10 to compare these values to what the MM3 model is currently giving when using add.prm.
-	What you should see is that the C=N distance is pretty good, the N-O distance is computed too short, the C=N-O angle is 
-	computed too large, and the C=N-O-H torsion angle is correct.
+	Use the Query feature in PCModel10 to compare these values to what the 
+	MM3 model is currently giving when using `add.prm.`
+	What you should see is that the C=N distance is pretty good, the N-O distance 
+	is computed too short, the C=N-O angle is computed too large, and the C=N-O-H 
+	torsion angle is correct.
 
 6. **You could decide to adjust the parameters to get a better agreement with experiment.**
 
-	The PCModel10 interface provides a fast way to do this.  The approach is to open the input file, choose the use added 
-	parameters, optimize the structure, and query the N-O and C=N-O angles so that you can see the values on the screen.  
+	The PCModel10 interface provides a fast way to do this.  The approach is to open 
+	the input file, choose the use added 
+	parameters, optimize the structure, and query the N-O and C=N-O angles so that you 
+	can see the values on the screen.  
 
-	Open a terminal window and open the add.prm file in a text editor.  Modify one or more parameters by changing their 
-	values.  Save the add.prm file.  Tell PCModel10 to use this modified version of the added parameters.  You have to 
-	first toggle the Use Added Parameters off, pick it again, and then choose the updated add.prm file.  Now minimize 
-	the structure.  The query values should change showing the effect of the changed parameters.  Iteratively modify the 
+	Open a terminal window and open the `add.prm` file in a text editor.  
+	
+	1. Modify one or more parameters by changing their values.
+	1. Save the `add.prm` file.  
+	1. Tell PCModel10 to use this modified version of the added parameters by:
+		1. toggling the `Use Added Parameters` off and then back on again, 
+		2. when prompted, choose the updated `add.prm` file.
+	1. Now minimize the structure again.  
+
+	The query values should change showing the effect of the changed parameters.  Iteratively modify the 
 	stretch and bend parameters to achieve a better agreement with the experimental data.
 
 	You could also do the parameter adjustment iterations using MENGINE and PCModel10.  The process would be 
