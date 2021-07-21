@@ -8,7 +8,7 @@ Try it again.  Open this dimethyloxime.pcm file in PCModel10, optimize the struc
 
 What do you do?
 
-## (1)	Investigate to see what parameters are being used for this molecule.  In PCModel10, here is how to do it.  
+## (1)	Investigate to see what parameters are being used for this molecule. In PCModel10:
 
 	(a) Open the dimethoxyoxime.pcm file, 
 	(b) select MM3 under the ForceField menu, 
