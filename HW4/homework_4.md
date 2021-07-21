@@ -17,11 +17,11 @@ What do you do?
 
 	1. In PCModel10:
 		1. Open the dimethoxyoxime.pcm file,
-		1. select MM3 under the ForceField menu,
-		1. under the Compute menu, click on Full Energy Printout, 
-		1. under the Compute menu, click on Minimize, 
-		1. under pcm10.app, click on Quit pcm10.app, 
-		1. click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
+		1. under the *ForceField* menu, click on *MM3*,
+		1. under the *Compute* menu, click on *Full Energy Printout*, 
+		1. under the *Compute* menu, click on *Minimize*, 
+		1. under *pcm10.app*, click on *Quit pcm10.app*, 
+		1. click on *Save Log File* in the popup window and you will be prompted to give a file name and location for the log file, 
 		1. open and read the log file with a text editor.
 
 	1. Look at this log file.  Given the MM3 user manual, can you make sense out of what is being 
@@ -83,7 +83,7 @@ contains the missing parameters prior to optimization.**
 4. **You can also read in added parameters when using PCModel10.**
 
 	Try it.  After getting set to minimize the structure, but before you hit 
-	Compute/Minimize, go to the Options menu and select 
+	*Compute->Minimize*, go to the Options menu and select 
 	Use Added Parameters. A file open window will appear asking you 
 	to select the added parameter files.  Select the `add.prm` 
 	file and optimize the structure.  
@@ -120,7 +120,7 @@ contains the missing parameters prior to optimization.**
 	1. Modify one or more parameters by changing their values.
 	1. Save the `add.prm` file.  
 	1. Tell PCModel10 to use this modified version of the added parameters by:
-		1. toggling the `Use Added Parameters` off and then back on again, 
+		1. toggling the *Use Added Parameters* off and then back on again, 
 		2. when prompted, choose the updated `add.prm` file.
 	1. Now minimize the structure again.  
 
