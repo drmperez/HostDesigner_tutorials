@@ -53,13 +53,13 @@ Try this out.  Make an ethane molecule and optimize it with MM3.  Create an adde
 
 ## 5.	We want to verify that the parameters are giving a structural features that are consistent with experiment.  One way to do this is compare bond lengths, bond angles, and dihedral angles with average values observed in the Cambridge Database.  Here is what the average experimental data is from 1118 dialkylated oxime structures says:
 
-C=N distance 1.28 +/- 0.02
+- C=N distance 1.28 +/- 0.02
 
-N-O distance 1.40 +/- 0.02
+- N-O distance 1.40 +/- 0.02
 
-C-N-O angle 113 +/- 2 deg
+- C-N-O angle 113 +/- 2 deg
 
-C=N-O-H dihedral angle is 180 +/- 7 deg
+- C=N-O-H dihedral angle is 180 +/- 7 deg
 
 Use the Query feature in PCModel10 to compare these values to what the MM3 model is currently giving when using add.prm.  What you should see is that the C=N distance is pretty good, the N-O distance is computed too short, the C=N-O angle is computed too large, and the C=N-O-H torsion angle is correct.
 
