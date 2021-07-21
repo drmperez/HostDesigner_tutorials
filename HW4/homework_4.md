@@ -15,23 +15,23 @@ What do you do?
 
 1. **Investigate to see what parameters are being used for this molecule.**
 
-	In PCModel10:
-	1. Open the dimethoxyoxime.pcm file,
-	1. select MM3 under the ForceField menu,
-	1. under the Compute menu, click on Full Energy Printout, 
-	1. under the Compute menu, click on Minimize, 
-	1. under pcm10.app, click on Quit pcm10.app, 
-	1. click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
-	1. open and read the log file with a text editor.
+	1. In PCModel10:
+		1. Open the dimethoxyoxime.pcm file,
+		1. select MM3 under the ForceField menu,
+		1. under the Compute menu, click on Full Energy Printout, 
+		1. under the Compute menu, click on Minimize, 
+		1. under pcm10.app, click on Quit pcm10.app, 
+		1. click on Save Log File in the popup window and you will be prompted to give a file name and location for the log file, 
+		1. open and read the log file with a text editor.
 
-	Look at this log file.  Given the MM3 user manual, can you make sense out of what is being 
+	1. Look at this log file.  Given the MM3 user manual, can you make sense out of what is being 
 	displayed on each interaction line?  Normally you will not be messing with van der Waals, 
 	charge, dipole, and cross-term (stretch-bend, bend-bend, stretch-torsion) parameters. Thus, 
 	you want to focus on the stretching, bending, and torsion interactions. These are listed 
 	under Bond Terms, Angle Terms, and Torsion Terms. 
 
-	1. What is the code using for the C=N-O angle?
-	1. What is the code using for the C=N-O-H torsion angle?
+		1. What is the code using for the C=N-O angle?
+		1. What is the code using for the C=N-O-H torsion angle?
 
 2. **Next, try to do this with MENGINE.**
 
