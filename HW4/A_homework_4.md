@@ -18,6 +18,8 @@ Tor:  C(  1) -  N(  2) -  O(  3) -  H(  6) :     2  108  145   21 :  179.999   0
 ### 2.i) Differences in the mengine output compared with PCModel 10 output.
 
 
+First off, mengine prints out all of the parameters that were estimated in order to run the input molecule.
+
 ##### mengine output `pcmod.out`, Lines 2 - 10:
 
 ```
@@ -31,6 +33,8 @@ angle       21  145  108     0.5430   110.0000     0.0000     0.0000   // estima
 torsion      2  108  145   21    0.000 +1   -2.400 -2    0.000 +3  // estimated values
 torsion      1    2  108  145    0.000 +1    2.470 -2   -0.600 +3  // estimated values
 ```
+
+Secondly, the estimated values are different from those used in PCModel 10. 
 
 ##### mengine output `pcmod.out`, Line 31:
 
@@ -58,7 +62,15 @@ In-plane bending energy (Ebend in kcal/mol) for this combination of atoms making
 Tor:   C(1  )-  N(2  )-  O(3  )-  H(6  )    2 108 145 21       179.98    0.000    -2.400   0.000    = -0.0000
 ```
 
-V2 is -2.400 instead of 0.000. 
+V2 is -2.400 instead of 0.000. V1 and V3 are 0.000 for both mengine and PCModel 10 estimated values.
+
+The torsional energy (Etor in kcal/mol) is described by an equation with three parameters, V1, V2, and V3.
+
+V1 is the first order torsional constant. When positive, the energy maximum is at 0 degrees and a minimum is at 180 degrees - otherwise known as staggered/anti conformation in Newman projection terminology.
+
+V2 is the second order torsional constant. When positive, the energy minima are at 0 and 180 degrees, and a maximum at 90 degrees. 
+
+V3 is a third order torsional constant. When positive, the energy minima are at 60 and 180 degrees, while maxima are at 0 and 120 degrees.
 
 ### 2.ii) Difference in structures from PCModel 10 and mengine.
 
