@@ -56,7 +56,10 @@ V2 is -2.400 instead of 0.000.
 
 ### 2.ii) Difference in structures from PCModel 10 and mengine.
 
-Atoms labeled with indices.
+Atoms labeled with indices. 
+
+Angles labeled in pink, lines point to the 1st and 3rd or 1st and 4th atom making up the bond angle or torsion angle, respectively. 
+
 Colors: gray = carbon, white = hydrogen, blue = nitrogen, red = oxygen.
 
 ![image of pcmodel10](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/PCModel10_defaultMM3.png)
