@@ -92,4 +92,11 @@ Figure above: Angle and torsion for structure optimized with mengine and default
 
 ### 2.iii) Reason for difference between PCModel 10 and mengine results.
 
-The default behavior of PCModel 10 
+The default behavior of PCModel 10 doesn't seem to generate any estimated values at all while mengine does.
+
+### 5. Compare values to average crystal structure values.
+
+The values are as stated in problem 5 except for the torsion angle. The crystal structure average is 180 degrees while the computed value (in PCModel 10 with add.prm from mengine) is 101.43 degrees.
+
+### 6. Adjust parameters.
+
