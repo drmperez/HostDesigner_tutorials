@@ -54,4 +54,15 @@ Tor:   C(1  )-  N(2  )-  O(3  )-  H(6  )    2 108 145 21       179.98    0.000  
 
 V2 is -2.400 instead of 0.000. 
 
-### 2.ii)
+### 2.ii) Difference in structures from PCModel 10 and mengine.
+
+Atoms labeled with indices.
+Colors: gray = carbon, white = hydrogen, blue = nitrogen, red = oxygen.
+
+![image of pcmodel10](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/PCModel10_defaultMM3.png)
+
+Figure: Angle and torsion for structure optimized with PCModel 10 and default MM3 parameters of `dimeoxime.pcm.` 
+
+![image of mengine](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/mengine_defaultMM3.png)
+
+Figure: Angle and torsion for structure optimized with mengine and default MM3 parameters of `dimeoxime.pcm.`
