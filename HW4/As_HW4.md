@@ -92,7 +92,7 @@ Figure above: Angle and torsion for structure optimized with mengine and default
 
 ### 2.iii) Reason for difference between PCModel 10 and mengine results.
 
-The default behavior of PCModel 10 doesn't seem to generate any estimated values at all while mengine does.
+The default behavior of PCModel 10 estimates different values than mengine.
 
 ### 5. Compare values to average crystal structure values.
 
