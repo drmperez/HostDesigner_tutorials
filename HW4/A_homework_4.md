@@ -100,7 +100,15 @@ The values are as stated in problem 5 except for the torsion angle. The crystal 
 
 ### 6. Adjust parameters.
 
-Adjusting parameters for the bond length, bond angle, and torsion angle for the molecule was used to obtain the results close to the average crystal structure. See figure below:
+Adjusting the parameters for the bond length, bond angle, and torsion angle resulted in a geometry with values close to the average crystal structure (see figure below for resulting values). 
+
+User modified parameters:
+```
+bond       108  145     6.0000     1.4000   // edit - marilu
+angle        2  108  145     8.0000   113.0000     0.0000     0.0000   // edit - marilu
+torsion      2  108  145   21    0.000 +1    2.400 -2    0.000 +3  // edit - marilu
+```
+
 
 ![image of pcmodel10 structure with optimized parameters](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/PCModel10_user_opt_MM3parameters.png)
 
