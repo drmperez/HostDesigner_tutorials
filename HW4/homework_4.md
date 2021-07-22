@@ -75,9 +75,10 @@ contains the missing parameters prior to optimization.**
 	In other words, the format for each type of interaction in this added parameter 
 	file is the same as the format seen in the default parameter file.
 
-	Try this out: Make an ethane molecule and optimize it with MM3.  Create an added parameter 
-	file in which you change the default C-C distance from 1.5247 angstroms to 1.600 angstroms.  
-	Optimize the structure again using the added parameters and verify that the C-C 
+	Try this out: 
+	1. Make an ethane molecule and optimize it with MM3.
+	1. Create an added parameter file in which you change the default C-C distance from 1.5247 angstroms to 1.600 angstroms.
+	1. Optimize the structure again using the added parameters and verify that the C-C 
 	distance gets longer.
 
 4. **You can also read in added parameters when using PCModel10.**
