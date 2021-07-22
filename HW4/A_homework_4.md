@@ -1,24 +1,24 @@
-### 1.ii.a) C=N-O Angle Terms:
+### 1.ii.a) C=N-O Angle Terms in PCModel 10 output:
 
 
-##### full_energy_printout.out, Line 52:
+##### PCModel output `full_energy_printout.out`, Line 52:
 ```
 	     At1      At2        At3       Angle     Thet0   Tconst    Ebend
 Angle 1-3:  C(  1) -  N(  2) -  O(  3) :  111.276 180.000   0.200 =   60.952
 ```
 
-### 1.ii.b) C=N-O-H Torsion Terms:
+### 1.ii.b) C=N-O-H Torsion Terms in PCModel 10 output:
 	
-##### full_energy_printout.out, Line 87:	
+##### PCModel output `full_energy_printout.out`, Line 87:	
 ```
 	At1      At2      At3         At4             Types          Angle     V1      V2        V3         Etor
 Tor:  C(  1) -  N(  2) -  O(  3) -  H(  6) :     2  108  145   21 :  179.999   0.000   0.000   0.000 =    0.000
 ```
 
-### 2.i) Differences with PCModel 10
+### 2.i) Differences in the mengine output compared with PCModel 10 output.
 
 
-##### pcmod.out, Lines 2 - 10:
+##### mengine output `pcmod.out`, Lines 2 - 10:
 
 ```
 Following Parameters Were Estimated
@@ -32,21 +32,27 @@ torsion      2  108  145   21    0.000 +1   -2.400 -2    0.000 +3  // estimated 
 torsion      1    2  108  145    0.000 +1    2.470 -2   -0.600 +3  // estimated values
 ```
 
-##### pcmod.out, Line 31:
+##### mengine output `pcmod.out`, Line 31:
 
 ```
-	     At1      At2        At3       Angle     Thet0   Tconst    Ebend
+	     At1      At2      At3     Angle     Thet0   Tconst     Ebend
 Angle 1-3:  C(1  )-  N(2  )-  O(3  )  111.276   110.000  0.6950   = 0.0244
 ```
 
-Thet9 is 110 instead of 180.000
+Equilibrium (minimum energy) bond angle (Theta_0 in degrees) between this combination of atoms making up a bond angle:
 
-Tconst is 0.6950 instead of 0.200
+*Theta_0 is 110.000 instead of 180.000*
 
-Ebend = 0.0244
+Bending constant (Tconst in md * Angstroms/rad^2) for this combination of atoms making up a bond angle:
+
+*Tconst is 0.6950 instead of 0.200*
+
+In-plane bending energy (Ebend in kcal/mol) for this combination of atoms making up a bond angle:
+
+*Ebend is 0.0244 instead of 60.952*
 
 
-##### pcmod.out, Line 66:
+##### mengine output `pcmod.out`, Line 66:
 ```
 	At1      At2      At3     At4          Types           Angle     V1      V2        V3         Etor
 Tor:   C(1  )-  N(2  )-  O(3  )-  H(6  )    2 108 145 21       179.98    0.000    -2.400   0.000    = -0.0000
@@ -64,8 +70,12 @@ Colors: gray = carbon, white = hydrogen, blue = nitrogen, red = oxygen.
 
 ![image of pcmodel10](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/PCModel10_defaultMM3.png)
 
-Figure: Angle and torsion for structure optimized with PCModel 10 and default MM3 parameters of `dimeoxime.pcm.` 
+Figure above: Angle and torsion for structure optimized with PCModel 10 and default MM3 parameters of `dimeoxime.pcm.` 
 
 ![image of mengine](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/mengine_defaultMM3.png)
 
-Figure: Angle and torsion for structure optimized with mengine and default MM3 parameters of `dimeoxime.pcm.`
+Figure above: Angle and torsion for structure optimized with mengine and default MM3 parameters of `dimeoxime.pcm.`
+
+### 2.iii) Reason for difference between PCModel 10 and mengine results.
+
+The default behavior of PCModel 10 
