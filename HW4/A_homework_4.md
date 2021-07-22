@@ -62,7 +62,9 @@ In-plane bending energy (Ebend in kcal/mol) for this combination of atoms making
 Tor:   C(1  )-  N(2  )-  O(3  )-  H(6  )    2 108 145 21       179.98    0.000    -2.400   0.000    = -0.0000
 ```
 
-V2 is -2.400 instead of 0.000. V1 and V3 are 0.000 for both mengine and PCModel 10 estimated values.
+Given the definition of V2 below (and the form of the torsion angle energy equation) the negative V2 value inverts the phase of the second order term, thus the minimum is at 90 degrees and teh maxima are at 0 and 180 degrees. The absolute value of the constant then determines the degree to which the potential energy curve is resembles the second order term. Indeed, when changing the V2 term to -8.40, the angle goes from 101.24 to 93.96 degrees.
+
+*V2 is -2.400 instead of 0.000. V1 and V3 are 0.000 for both mengine and PCModel 10 estimated values.*
 
 The torsional energy (Etor in kcal/mol) is described by an equation with three parameters, V1, V2, and V3.
 
