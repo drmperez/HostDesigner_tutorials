@@ -53,3 +53,11 @@ numbering in the "Setup Bonds" window are odd. See Notes on Hexane_2 above.
 energy conformation.
 8. The lowest energy conformation seems to be found when modifying the default
 bond values originally populated in the "Bond Setup" menu.
+
+# Considerations (from Ben)
+
+1. Think about the features of the system that will make the run take a long time.
+  1. number of chiral centers
+  2. molecule is very flexible (many rotatatable bonds)
+2. Resolution of rotations. PCModel10 grid search has rotations of 30, 60, and 120 
+3. The code checks superimposable structures and if the're not, they're counted as different structures, even if they are mirror images of each other.
