@@ -52,3 +52,5 @@ file doesn't clarify.
 numbering in the "Setup Bonds" window are odd. See Notes on Hexane_2 above.
 7. Many structures complete with a geometry that is not (or should not be) the lowest
 energy conformation.
+8. The lowest energy conformation seems to be found when modifying the default
+bond values originally populated in the "Bond Setup" menu.
