@@ -61,3 +61,5 @@ bond values originally populated in the "Bond Setup" menu.
   2. molecule is very flexible (many rotatatable bonds)
 2. Resolution of rotations. PCModel10 grid search has rotations of 30, 60, and 120 
 3. The code checks superimposable structures and if the're not, they're counted as different structures, even if they are mirror images of each other.
+4. Conformer searches - energy window - consider that the Boltzman 
+5. The Job Save contains the control file for mengine at the end. Use it to restart files or transfer settings from PCModel10 to mengine.
