@@ -16,7 +16,6 @@
 7. Add ring -> accept
 8. Start
 9. Runs ok.
-
 10. Repeat 1-9 and found exact same behavior.
 
 ## Hexane_2
