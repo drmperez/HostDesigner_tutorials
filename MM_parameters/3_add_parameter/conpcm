@@ -1,0 +1,6 @@
+mode opt
+infile ethane.pcm
+outfile mengine_opt.pcm
+iprint 1
+forcefield mm3
+addpar add.prm
