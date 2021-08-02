@@ -1,0 +1,21 @@
+mode search
+infile num3.pcm
+outfile scratch
+forcefield mm3
+dielec 1.5
+method 1
+ewindow 3.5
+NumBonds   9
+Bond    2    3  120
+Bond    3    4  120
+Bond    4    5  120
+Bond    5    6  120
+Bond    6    7  120
+Bond    7    8  120
+Bond    8    9  120
+Bond    9   10  120
+Bond   10   11  120
+Second_cycle
+infile scratch 
+outfile num3.out.pcm
+ewindow 3.5

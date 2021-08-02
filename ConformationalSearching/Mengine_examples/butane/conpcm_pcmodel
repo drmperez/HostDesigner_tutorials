@@ -1,0 +1,10 @@
+Version: 2
+ForceField: MMFF94
+Method: Gmmx
+EnergyWindow: 3.5000
+MaxSearch: 50000
+SearchMethod: Both
+CheckEpimers:  1
+CheckDoubleBond: 1
+NumBonds: 1
+Bond: 2 3 60

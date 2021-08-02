@@ -1,0 +1,14 @@
+mode search
+infile pentane.pcm
+outfile scratch
+forcefield mm3
+dielec 1.5
+method 1
+ewindow 3.5
+NumBonds   2
+Bond    2    3  120
+Bond    3    4  120
+Second_cycle
+infile scratch 
+outfile pentane.out.pcm
+ewindow 3.5
