@@ -6,6 +6,10 @@ The [HostDesigner](https://sourceforge.net/projects/hostdesigner/) code can be f
 
 https://sourceforge.net/projects/hostdesigner/
 
+HostDesigner download contains the stand alone code:
+  mengine
+  HDViewer
+
 The [PCModel](http://www.serenasoft.com/license.html) program can be downloaded from:
 
 http://www.serenasoft.com/license.html
