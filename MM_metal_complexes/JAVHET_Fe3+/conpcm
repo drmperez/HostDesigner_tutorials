@@ -1,0 +1,5 @@
+mode opt
+infile JAVHET_Fe3+.pcm
+outfile mengine_opt.pcm
+iprint 1
+forcefield mm3

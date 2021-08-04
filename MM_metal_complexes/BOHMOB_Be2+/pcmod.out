@@ -1,0 +1,17 @@
+ 
+Following Parameters Were Estimated
+ 
+dipole      37  302     0.0000  // estimated
+bond        37  302     1.5243     1.6673   // estimated
+dipole       6  302     0.0000  // estimated
+bond         6  302     1.9408     1.5857   // estimated
+dipole     206  302     0.0000  // estimated
+bond       206  302     2.1968     1.5836   // estimated
+angle        2   37  302     0.6966   121.4000   127.0000     0.0000   // estimated
+Missing angle constants for 6 - 3 - 1, type 2 - 6 - 302
+
+Missing angle constants for 22 - 4 - 1, type 2 - 6 - 302
+
+opbend       0   37  302    0     7.6216   // estimate
+torsion      2    2   37  302    0.000 +1   15.243 -2    0.000 +3  // estimated values
+torsion      2    2    6  302    0.000 +1    0.000 -2    0.000 +3  // set zero

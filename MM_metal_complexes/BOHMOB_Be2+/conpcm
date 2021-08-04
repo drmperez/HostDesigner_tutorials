@@ -1,0 +1,5 @@
+mode opt
+infile BOHMOB_Be2+_pcmodel_opt.pcm
+outfile mengine_opt.pcm
+iprint 1
+forcefield mm3
