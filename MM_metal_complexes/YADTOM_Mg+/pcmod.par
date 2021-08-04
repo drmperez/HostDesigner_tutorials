@@ -1,0 +1,4 @@
+dipole       7  304     0.0000  // estimated
+bond         7  304     1.1104     2.0156   // estimated
+angle        3    7  304     0.2221   131.9950     0.0000     0.0000   // estimated
+torsion      1    3    7  304    0.000 +1    1.110 -2    0.000 +3  // estimated values
