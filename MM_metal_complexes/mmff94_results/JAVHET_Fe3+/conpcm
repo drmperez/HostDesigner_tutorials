@@ -1,0 +1,5 @@
+mode opt
+infile JAVHET_Fe3+_crystal_mmff_atomtypes_noexplicitbonds.pcm
+outfile mengine_opt.pcm
+iprint 1
+forcefield mmff94
