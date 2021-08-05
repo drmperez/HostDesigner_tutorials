@@ -13,9 +13,9 @@ Hay = Ben Hay
 MPG = Marilu Perez Garcia
 ```
 
-The MMFF94 contains default parameters for two of the metal ions found in these complexes. Using the electrostatic approach (only charge-charge and vdw interactions with the metal), make MMFF94 input files for these two complexes, optimize them, and perform superpositions. Which model gives the best result?
+*The MMFF94 contains default parameters for two of the metal ions found in these complexes. Using the electrostatic approach (only charge-charge and vdw interactions with the metal), make MMFF94 input files for these two complexes, optimize them, and perform superpositions. Which model gives the best result?*
 
-Results
+**Results**
 
 JAVHET: No explicit N-Metal bonds in input file.
 
