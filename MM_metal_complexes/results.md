@@ -18,14 +18,23 @@ The MMFF94 contains default parameters for two of the metal ions found in these 
 Results
 
 JAVHET: No explicit N-Metal bonds in input file.
+
 RMSD with PCM10 0.3534
+
 BOHMOB:
+
 RMSD with PCM10 0.1972
+
 DUCQAT: optimizing in pcm10 after H-A/D (H-add/delete) made program hang.
+
 RMSD with PCM10 N/A 
+
 NEVTAK: 
+
 RMSD with PCM10 0.2536
+
 QELQAA:
+
 RMSD with PCM10 0.2851
 
 
