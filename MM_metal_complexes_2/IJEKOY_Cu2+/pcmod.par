@@ -1,0 +1,12 @@
+dipole     237  323     0.0000  // estimated
+bond       237  323     1.2456     1.9302   // estimated
+dipole     201  323     0.0000  // estimated
+bond       201  323     5.0000     1.0000   // estimated
+vdwpr     201  201     2.0000     5.0000   // estimated
+angle       40  237  323     0.5692   121.0000     0.0000     0.0000   // estimated
+angle        2  237  323     0.5692   128.0000     0.0000     0.0000   // estimated
+opbend       0  237  323    0     6.2280   // estimate
+torsion      2   40  237  323    0.000 +1   12.456 -2    0.000 +3  // estimated values
+torsion      1   40  237  323    0.000 +1   12.456 -2    0.000 +3  // estimated values
+torsion      2    2  237  323    0.000 +1   12.456 -2    0.000 +3  // estimated values
+torsion      1    2  237  323    0.000 +1   12.456 -2    0.000 +3  // estimated values

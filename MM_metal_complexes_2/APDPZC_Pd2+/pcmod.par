@@ -1,0 +1,6 @@
+dipole       8  338     0.0000  // estimated
+bond         8  338     2.2124     1.9246   // estimated
+dipole     201  338     0.0000  // estimated
+bond       201  338     5.0000     1.0000   // estimated
+vdwpr     201  201     2.0000     5.0000   // estimated
+angle       23    8  338     1.0111   108.1000   109.0000   109.5000   // estimated

@@ -1,0 +1,5 @@
+mode opt
+infile ESABEH_VO2+.pcm
+outfile mengine_opt.pcm
+iprint 1
+forcefield mm3
