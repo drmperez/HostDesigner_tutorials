@@ -1,0 +1,5 @@
+mode opt
+infile IJEKOY_Cu2+.pcm
+outfile mengine_opt_39insteadof81.pcm
+iprint 1
+forcefield mmff94
