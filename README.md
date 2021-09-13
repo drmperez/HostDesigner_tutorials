@@ -14,3 +14,21 @@ The [PCModel](http://www.serenasoft.com/license.html) program can be downloaded 
 
 http://www.serenasoft.com/license.html
 
+
+### Tutorial 1
+Atom typing of organic molecules.
+
+### Tutorial 2
+Atom typing of organometallic ions.
+
+### Tutorial 3
+Atom typing of organometallic ions continued.
+
+### Tutorial 4
+Viewing and adjusting parameters.
+
+### Tutorial 5
+Conformational searching.
+
+### Tutorial 6
+Ligand design with linker mode.
