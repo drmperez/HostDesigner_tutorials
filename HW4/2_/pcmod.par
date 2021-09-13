@@ -1,7 +1,0 @@
-bond         2  108     9.0000     1.2710   // equiv bond   2 37
-dipole     108  145     0.2516  // estimated
-bond       108  145     6.2457     1.3442   // estimated
-angle        2  108  145     0.6950   110.0000     0.0000     0.0000   // estimated
-angle       21  145  108     0.5430   110.0000     0.0000     0.0000   // estimated
-torsion      2  108  145   21    0.000 +1   -2.400 -2    0.000 +3  // estimated values
-torsion      1    2  108  145    0.000 +1    2.470 -2   -0.600 +3  // estimated values

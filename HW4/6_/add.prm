@@ -1,7 +1,0 @@
-bond         2  108     9.0000     1.2710   // equiv bond   2 37
-bond       108  145     6.0000     1.4000   // edit - marilu
-dipole     108  145     0.2516  // estimated
-angle        2  108  145     8.0000   113.0000     0.0000     0.0000   // edit - marilu
-angle       21  145  108     0.5430   110.0000     0.0000     0.0000   // estimated
-torsion      2  108  145   21    0.000 +1    2.400 -2    0.000 +3  // edit - marilu
-torsion      1    2  108  145    0.000 +1    2.470 -2   -0.600 +3  // estimated values
