@@ -82,11 +82,11 @@ Angles labeled in pink, lines point to the 1st and 3rd or 1st and 4th atom makin
 
 Colors: gray = carbon, white = hydrogen, blue = nitrogen, red = oxygen.
 
-![image of pcmodel10](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/PCModel10_defaultMM3.png)
+![image of pcmodel10](https://github.com/drmperez/HostDesigner_tutorials/blob/main/MM_parameters/images/PCModel10_defaultMM3.png)
 
 Figure above: Angle and torsion for structure optimized with PCModel 10 and default MM3 parameters of `dimeoxime.pcm.` 
 
-![image of mengine](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/mengine_defaultMM3.png)
+![image of mengine](https://github.com/drmperez/HostDesigner_tutorials/blob/main/MM_parameters/images/mengine_defaultMM3.png)
 
 Figure above: Angle and torsion for structure optimized with mengine and default MM3 parameters of `dimeoxime.pcm.`
 
