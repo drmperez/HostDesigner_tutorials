@@ -1,4 +1,4 @@
-# Homework 4
+# Adjusting Parameters
 
 Study pages 78 thru 167 in the MM3 manual.  Also, study pages 91 – 105 and 112 – 115 of the 
 HostDesigner manual.  
