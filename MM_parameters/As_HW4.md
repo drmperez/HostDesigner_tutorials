@@ -110,5 +110,5 @@ torsion      2  108  145   21    0.000 +1    2.400 -2    0.000 +3  // edit - mar
 ```
 
 
-![image of pcmodel10 structure with optimized parameters](https://github.com/drmperez/HostDesigner_tutorials/blob/main/HW4/images/PCModel10_user_opt_MM3parameters.png)
+![image of pcmodel10 structure with optimized parameters](https://github.com/drmperez/HostDesigner_tutorials/blob/main/MM_parameters/images/PCModel10_user_opt_MM3parameters.png)
 
