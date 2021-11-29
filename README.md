@@ -32,3 +32,6 @@ Conformational searching.
 
 ### Tutorial 6
 Ligand design with linker mode.
+
+### Tutorial 7
+Scan ligand strain for a series of metal ions.
