@@ -1,3 +1,11 @@
+---
+
+layout: page
+title: "Making mengine input files"
+permalink: /HostDesigner_tutorials/
+
+---
+
 ## Making mengine input files
 
 The mengine code is a command line executable that does molecular mechanics calculations.
