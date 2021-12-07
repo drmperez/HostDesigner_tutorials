@@ -7,4 +7,21 @@ List of tutorials:
 [Making mengine input files](/mengine_inputs.md)
 
 
+### More Information
+
+These exercises were created Supramolecular Design Institute and edited for this site by @drmperez. 
+
+The [HostDesigner](https://sourceforge.net/projects/hostdesigner/) code can be found at:
+
+https://sourceforge.net/projects/hostdesigner/
+
+HostDesigner download contains the stand alone code:
+  mengine
+  HDViewer
+
+The [PCModel](http://www.serenasoft.com/license.html) program can be downloaded from:
+
+http://www.serenasoft.com/license.html
+
+
 Use the [editor on GitHub](https://github.com/drmperez/HostDesigner_tutorials/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
