@@ -1,7 +1,7 @@
 ---
 
 title: "Making mengine input files"
-permalink: /HostDesigner_tutorials/
+#permalink: /HostDesigner_tutorials/
 
 ---
 
