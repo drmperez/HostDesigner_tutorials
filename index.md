@@ -23,5 +23,3 @@ The [PCModel](http://www.serenasoft.com/license.html) program can be downloaded 
 
 http://www.serenasoft.com/license.html
 
-
-Use the [editor on GitHub](https://github.com/drmperez/HostDesigner_tutorials/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
