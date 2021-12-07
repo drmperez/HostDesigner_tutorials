@@ -37,6 +37,7 @@ If you are working with metal complexes, then you will probably be using the MM3
 Note that one should never assume PCModel atom type assignments are correct.
 They should always be checked and this is especially true for metal complexes.
 
+![18 organic molecules](/images/18_organic_molecules.png)
 ![42 organic molecules](/images/42_organic_molecules.png)
 
 The Supporting Information contains a directory named atom_types, which contains PCModel 
