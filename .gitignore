@@ -3,3 +3,7 @@
 
 # Ignore temp files
 ~*
+
+# Ignore website files
+.jekyll-cache
+_site/
