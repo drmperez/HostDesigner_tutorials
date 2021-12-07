@@ -1,0 +1,25 @@
+valinate+M.pcm
+valinate   -1   2   1   6
+22
+Be   2   7.15  0.0  single value
+Mg   2   2.07  0.0  single value
+Y    3   5.46  0.0  single value
+La   3   4.40  0.0  single value
+Th   4   9.65  0.0  +/- 0.39,  3 values
+U    2   7.99  0.0  +/- 0.51,  2 values
+V    2   7.37  0.0  +/- 0.39,  2 values
+Cr   3   9.42  0.0  +/- 0.16,  2 values
+Mn   2   3.16  0.0  +/- 0.10,  4 values
+Fe   2   4.00  0.0  single value
+Fe   3  10.72  0.0  +/- 0.20,  2 values
+Co   2   5.03  0.0  +/- 0.14,  7 values
+Ni   2   5.93  0.0  +/- 0.15, 13 values
+Cu   2   8.56  0.0  +/- 0.15, 38 values
+Zn   2   5.10  0.0  +/- 0.20, 15 values
+Pd   2  10.26  0.0  single value
+Ag   1   3.77  0.0  +/- 0.16,  2 values
+Cd   2   4.38  0.0  +/- 0.26, 11 values
+Al   3   6.50  0.0  single value
+Ga   3   9.69  0.0  single value
+In   3   8.65  0.0  single value
+Pb   2   5.11  0.0  +/- 0.20,  4 values

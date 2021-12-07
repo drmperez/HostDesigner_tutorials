@@ -1,0 +1,43 @@
+malonate+M.pcm
+malonate  -2   2  
+40
+Li   1   1.36  0.0  +/- 0.18,  2 values (Vol6,1.10)
+Be   2   6.42  0.0  +/- 0.29,  6 values
+Mg   2   2.85  0.0  +/- 0.07,  8 values (Vol6,2.85)
+Ca   2   2.53  0.0  +/- 0.14, 10 values (Vol6,2.43)
+Sr   2   2.27  0.0  +/- 0.07,  2 values
+Ba   2   2.24  0.0  +/- 0.10,  6 values (Vol3,2.07)
+Sc   3   7.92  0.0  +/- 0.21,  2 values
+Y    3   5.75  0.0  single value
+La   3   5.16  0.0  +/- 0.27,  9 values (Vol6,4.94)
+Ce   3   5.23  0.0  +/- 0.23,  4 values
+Pr   3   5.56  0.0  +/- 0.43,  4 values
+Nd   3   5.44  0.0  +/- 0.22,  4 values
+Sm   3   5.68  0.0  +/- 0.26,  3 values
+Eu   3   5.52  0.0  +/- 0.11,  7 values
+Gd   3   5.62  0.0  +/- 0.12,  5 values 
+Tb   3   5.73  0.0  +/- 0.06,  2 values
+Dy   3   5.76  0.0  +/- 0.06,  2 values
+Ho   3   5.71  0.0  +/- 0.04,  2 values
+Er   3   5.70  0.0  +/- 0.06,  3 values
+Tm   3   5.73  0.0  +/- 0.04,  2 values
+Yb   3   5.80  0.0  +/- 0.30,  5 values (Vol3,5.70)
+Lu   3   5.87  0.0  +/- 0.22,  4 values
+Th   4   9.98  0.0  +/- 0.14,  3 values
+U    2   6.48  0.0  +/- 0.37,  9 values
+Pu   2   6.06  0.0  single value
+V    2   6.75  0.0  +/- 0.23,  4 values
+Cr   2   4.81  0.0  +/- 0.02,  2 values
+Cr   3   7.79  0.0  +/- 0.63,  2 values
+Mn   2   3.42  0.0  +/- 0.36,  4 values (Vol3,3.28)
+Fe   2   3.43  0.0  +/- 0.03,  2 values
+Fe   3   9.43  0.0  +/- 0.05,  4 values
+Co   2   3.78  0.0  +/- 0.11, 12 values (Vol3,3.74)
+Ni   2   4.33  0.0  +/- 0.27, 14 values (Vol3,4.05)
+Cu   2   6.02  0.0  +/- 0.15, 16 values (Vol6,5.80)
+Zn   2   3.74  0.0  +/- 0.11, 15 values (Vol3,3.84)
+Cd   2   3.32  0.0  +/- 0.25, 11 values (Vol3,3.22)
+Pb   2   3.87  0.0  +/- 0.33,  3 values
+Al   3   7.56  0.0  +/- 0.50,  4 values
+Ga   3   8.65  0.0  single value
+In   3   7.11  0.0  +/- 0.21,  2 values

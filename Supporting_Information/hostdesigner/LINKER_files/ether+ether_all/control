@@ -1,0 +1,5 @@
+link hosta=ether hostb=ether drivea driveb out=bisether and
+numview=5000 maxrmsd=4.0 maxnrot=4 minconn=2 and
+nmm=500 field=mm3 deltae=1 order=2 and
+nconf=100 maxtime=600 maxpush=1000
+

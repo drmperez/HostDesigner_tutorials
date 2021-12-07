@@ -1,0 +1,4 @@
+link hosta=ether hostb=amine drivea driveb out=ether-amine and
+numview=5000 maxrmsd=4.0 maxnrot=4 minconn=2 and
+nmm=500 field=mm3 deltae=1 order=2 and
+nconf=100 maxpush=1000 maxtime=600

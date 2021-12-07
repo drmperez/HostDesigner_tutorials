@@ -1,0 +1,21 @@
+maltol+M.pcm
+maltol   -1   0
+18
+Be   2   6.37   0.0  single value       (no SM data)
+Y    3   7.08   0.0  +/- 0.32, 4 values (SMVol3,7.17)
+La   3   6.16   0.0  +/- 0.27, 2 values (SMVol3,6.43)
+Pr   3   6.53   0.0  +/- 0.27, 2 values (SMVol3,6.80)
+Nd   3   6.68   0.0  +/- 0.22, 2 values (SMVol3,6.89)
+Sm   3   7.18   0.0  single value       (SMVol3,7.18)
+Eu   3   7.39   0.0  single value       (SMVol3,7.39)
+Gd   3   6.97   0.0  +/- 0.29, 2 values (SMVol3,7.25)
+Dy   3   7.32   0.0  +/- 0.23, 2 values (SMVol3,7.55)
+Er   3   7.63   0.0  single value       (SMVol3,7.63)
+Yb   3   7.73   0.0  single value       (SMVol3,7.73)
+U    2   8.69   0.0  +/- 0.10, 2 values (SMVol5,8.63)
+V    2   8.28   0.0  +/- 0.10, 2 values (no SM data)
+Fe   3  12.17   0.0  single value       (SMVol3,12.17)
+Ni   2   6.05   0.0  single value       (SMVol6,8.33)
+Cu   2   8.33   0.0  +/- 0.10, 2 values (SMVol3,8.33)
+Zn   2   6.15   0.0  +/- 0.10, 3 values (SMVol6,6.15)
+Al   3   8.79   0.0  +/- 0.42, 2 values (SMVol3,8.37)

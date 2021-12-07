@@ -1,0 +1,18 @@
+tiron+M.pcm
+tiron   -4   0  
+15
+Be   2  14.44   0.0  +/- 0.24,  3 values (SMVol5,14.52)
+Mg   2   8.66   0.0  single value        (SMVol3,8.66)
+Ca   2   7.60   0.0  single value        (SMVol3,7.60)
+Sr   2   6.35   0.0  single value        (SMVol3,6.35)
+Ba   2   5.90   0.0  single value        (SMVol3,5.90)
+Eu   3  16.15   0.0  +/- 0.24,  2 values (SMVol5,17.18)
+Tm   3  17.25   0.0  +/- 0.57,  4 values (SMVol5,17.48)
+Lu   3  16.92   0.0  +/- 0.22,  2 values (SMVol5,17.93)
+Th   4  21.69   0.0  single value        (no SM data)
+Mn   2  10.11   0.0  +/- 0.33,  4 values (SMVol3,10.03)
+Co   2  10.96   0.0  +/- 0.27,  5 values (SMVol3,10.90)
+Ni   2  11.33   0.0  +/- 0.27,  6 values (SMVol3,11.34)
+Cu   2  16.12   0.0  +/- 0.31, 13 values (SMVol3,15.63)
+Zn   2  11.88   0.0  +/- 0.33, 10 values (SMVol3,12.13)
+Cd   2  10.50   0.0  +/- 0.31,  4 values (SMVol5,10.60)

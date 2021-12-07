@@ -1,0 +1,27 @@
+glutarate+M.pcm
+glutarate   -2   0 
+24
+Be   2   3.94   0.0  single value
+Mg   2   2.18   0.0  single value
+Ca   2   1.88   0.0  +/- 0.29, 2 values
+Sr   2   1.64   0.0  single value
+Ba   2   2.04   0.0  single value (Vol3,2.04)
+Sc   3   5.69   0.0  +/- 0.97, 3 values
+La   3   4.08   0.0  +/- 0.26, 3 values (Vol3,3.82)
+Pr   3   4.52   0.0  single value
+Sm   3   4.59   0.0  lowest of 3 values
+Eu   3   4.08   0.0  single value
+Gd   3   4.54   0.1  single value
+Dy   3   4.48   0.0  single value
+Er   3   4.44   0.0  lower of two values
+Lu   3   4.51   0.0  single value
+Th   4   8.63   0.0  +/- 0.20, 2 values
+U    2   4.72   0.0  +/- 0.15, 4 values
+Mn   2   2.17   0.0  single value
+Fe   3   8.89   0.0  +/- 0.19, 2 values
+Co   2   2.28   0.0  +/- 0.07, 2 values (Vol3,2.28)
+Ni   2   2.50   0.0  single value
+Cu   2   3.34   0.0  +/- 0.20, 4 values (Vol3,3.16)
+Zn   2   2.60   0.0  +/- 0.17, 5 values (Vol3,2.45)
+Cd   2   2.90   0.0  single value
+Pb   2   3.83   0.0  +/- 0.21, 3 values

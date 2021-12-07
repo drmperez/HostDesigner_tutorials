@@ -1,0 +1,21 @@
+oxoacetate+M.pcm
+oxoacetate   -1   1
+18
+Y    3   3.23  0.0  single value       (SMVol3,3.23)
+La   3   3.03  0.0  single value       (SMVol3,3.03)
+Ce   3   3.06  0.0  single value       (SMVol3,3.06)
+Pr   3   3.11  0.0  single value       (SMVol3,3.11)
+Nd   3   3.15  0.0  single value       (SMVol3,3.15)
+Sm   3   3.22  0.0  single value       (SMVol3,3.22)
+Eu   3   3.17  0.0  single value       (SMVol3,3.17)
+Gd   3   3.16  0.0  single value       (SMVol3,3.16)
+Tb   3   3.19  0.0  single value       (SMVol3,3.19)
+Dy   3   3.23  0.0  single value       (SMVol3,3.23)
+Ho   3   3.25  0.0  single value       (SMVol3,3.25)
+Er   3   3.27  0.0  single value       (SMVol3,3.27)
+Tm   3   3.28  0.0  single value       (SMVol3,3.28)
+Yb   3   3.32  0.0  single value       (SMVol3,3.32)
+Lu   3   3.35  0.0  single value       (SMVol3,3.35)
+Ni   2   1.63  0.0  +/- 0.10, 2 values (SMVol3,1.63)
+Cu   2   2.60  0.0  single value       (SMVol5,2.60)
+Zn   2   1.48  0.0  +/- 0.20, 2 values (SMVol3,1.48)

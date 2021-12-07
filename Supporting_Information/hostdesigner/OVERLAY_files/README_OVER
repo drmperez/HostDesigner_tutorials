@@ -1,0 +1,7 @@
+This directory contains eight subdirectories, each containing input files
+needed to perform HostDesigner OVERLAY runs to build bidentate ligands.
+
+There are two subdirectories for each combination of donor groups.  One tries
+all links and the other tries only synthetically accessible links.
+
+To run one of these examples, enter the subdirectory and launch HostDesigner.

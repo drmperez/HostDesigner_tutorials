@@ -1,0 +1,23 @@
+methoxyacetate+M.pcm
+methoxyacetate   -1   2 
+20
+Ca   2   1.12  0.0  single value       (SMVol3,1.12)
+Y    3   2.67  0.0  single value       (SMVol3,2.67)
+La   3   2.70  0.0  single value       (SMVol3,2.70)
+Ce   3   2.73  0.0  single value       (SMVol3,2.73)
+Pr   3   2.74  0.0  single value       (SMVol3,2.74)
+Nd   3   2.73  0.0  single value       (SMVol3,2.73)
+Sm   3   2.80  0.0  single value       (SMVol3,2.80)
+Eu   3   2.79  0.0  single value       (SMVol3,2.79)
+Gd   3   2.73  0.0  single value       (SMVol3,2.73)
+Tb   3   2.72  0.0  single value       (SMVol3,2.72)
+Dy   3   2.72  0.0  single value       (SMVol3,2.72)
+Ho   3   2.74  0.0  single value       (SMVol3,2.74)
+Er   3   2.75  0.0  single value       (SMVol3,2.75)
+Tm   3   2.75  0.0  single value       (SMVol3,2.75)
+Yb   3   2.75  0.0  single value       (SMVol3,2.75)
+Lu   3   2.76  0.0  single value       (SMVol3,2.76)
+Co   2   1.92  0.0  single value       (no SM data)
+Ni   2   2.04  0.0  single value       (no SM data)
+Cu   2   2.52  0.0  +/- 0.14, 3 values (no SM data)
+Pd   2   4.21  0.0  single value       (no SM data)
