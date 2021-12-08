@@ -54,11 +54,11 @@ whether the ligand exhibits a steric preference for a specific
 size metal and how strong this preference is. Although
 the calculation of ∆E<sub>tot</sub> is straight forward, 
 these calculations become tedious when doing an entire series
-of metal ions. For this reason, the utility code named scanme 
+of metal ions. For this reason, the utility code named *scanme* 
 was created (see **insert link to scanme** for how to
 make and install this code).
 
-When scanme is run, it prompts the user for input
+When *scanme* is run, it prompts the user for input
 twice. The first prompt asks for the name of the
 PCModel input file containing the metal-ligand structure. The second prompt
 asks whether the user wants to conformer search the ligand.
@@ -74,13 +74,13 @@ range, then these two methods will give the same shaped
 energy versus radius plots, where the ∆E<sub>1</sub> plot is offset
 from the ∆E<sub>tot</sub> plot by a constant ∆E<sub>2</sub> value.
 
-To provide an example of how to use scanme, six
+To provide an example of how to use *scanme*, six
 example PCModel input files are provided as Supporting Information (in
 directory size_scan). The first training assignment is to determine and
 compare intrinsic metal size preferences in bis-amine and bis-ether chelates
 when the connecting link between the donor groups is varied
 over 1,2-ethane, cis-1,2-cyclohexane, and trans-1,2-cyclohexane
-links. To do this run scanme for each of the input structures
+links. To do this run *scanme* for each of the input structures
 doing conformer searches for each case and graph the ∆E<sub>tot</sub>
 values vs. metal ion radii for all six ligands on the same plot.
 
@@ -92,7 +92,7 @@ of the size of the metal and represent the intrinsic
 size selectivity associated with the ligand binding conformation. 
 
 A second training assignment is to attempt to reproduce one
-of the ∆E<sub>tot</sub> values reported by scanme. Here is the
+of the ∆E<sub>tot</sub> values reported by *scanme*. Here is the
 process:
 
 1. Optimize the structure with mengine
