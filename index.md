@@ -2,9 +2,12 @@
 
 Here here will find a series of tutorials that will enable the use of HostDesigner and auxilliary tools.
 
-List of tutorials:
+### List of tutorials
 
-[Making mengine input files](/mengine_inputs.md)
+[Making molecular mechanics (MM) input files](/mengine_inputs.md)
+
+[Running MM conformational analysis](/conformations.md)
+
 
 
 ### More Information
