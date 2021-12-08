@@ -8,7 +8,7 @@ Here here will find a series of tutorials that will enable the use of HostDesign
 
 [Running MM conformational analysis](/conformations.md)
 
-
+[Evaluating ligand structures with MM](/mm_ligand_eval.md)
 
 ### More Information
 
