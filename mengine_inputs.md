@@ -47,3 +47,21 @@ For example, the files for the first structure, ethanol, are named num1_mm3.pcm 
 The training assignment is to use PCModel to create these molecules and save them as PCModel
 formatted files using both MMFF94 and MM3 atom types.  The files produced by the trainee can
 be verified by comparison to the provided PCModel files.
+
+![Metal Complexes 1](/images/metal_complexes-1.png)
+
+Atomic coordinates for the above metal complexes were taken from the Cambridge Structural Database.
+Supporting Information contains a directory named metal_complexes, which contains SDFmol formatted
+files and PCModel files with MM3 atom types for these complexes.  The file names indicate the
+structure and the format.  For example, the files for the first structure are named BOHMOB.mol
+and BOHMOB.pcm.  The training assignment is to use the coordinates in the SDFmol file to create a
+PCModel input file with correct MM3 atom types.   The result can be verified by comparison to the
+provided PCModel file.
+
+![Metal Complexes 2](/images/metal_complexes-2.png)
+
+Continued from above, atomic coordinates for the above metal complexes were taken from the Cambridge
+Structural Database. Supporting Information contains a directory named metal_complexes, which
+contains SDFmol formatted files and PCModel files with MM3 atom types for these complexes. The
+assignment is to use the coordinates in the SDFmol file to create a PCModel input file with correct
+MM3 atom types.  The training result can be verified by comparison to the provided PCModel file.
