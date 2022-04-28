@@ -1,11 +1,19 @@
-of creating the data files for training LOGKPREDICT
+* Add definitions/explantions for the programs in this directory (scanme, searchme, etc.)
+
+
+Process of creating the data files for training LOGKPREDICT
 Ben Hay, 10-20-2021
+
 Provided are source codes for two fortran programs that can be used to make a training data
 files. These programs assume that mengine is installed on the system the same as it would be
 when running HostDesigner post-processing.
-The first code is called makedata. The way this one works is that you enter working directory
+
+*The first code is called makedata.*
+
+The way this one works is that you enter working directory
 containing three input files and launch the code on the command line. The input files are
 named as follows:
+
 input - an example is given below. The first line gives the name of the PCModel MM3-
 formatted input file for a ligand – metal complex containing a single metal ion and a single
 ligand. The second line gives the name of the ligand, the charge on the ligand, and the number
@@ -50,7 +58,7 @@ file. The code is launched by entering the working directory and entering makeal
 command line. The output for each ligand, which will be the same as described above, is stored
 in the correspondingly named subdirectory.
 
-*Provided are two directories that each contain a series of ligand subdirectories. Each
+Provided are two directories that each contain a series of ligand subdirectories. Each
 subdirectory contains the three input files as described above for 85 ligands.
 
 dat_file_inputs: The input files contain the original lists of log K
