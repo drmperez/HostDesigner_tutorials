@@ -7,3 +7,7 @@
 # Ignore website files
 .jekyll-cache
 _site/
+
+
+# Ignore compiled code
+*.o
