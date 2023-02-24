@@ -1,5 +1,0 @@
-link hosta=pyridine hostb=acid drivea driveb out=pyr-acid and
-synth101 and
-numview=5000 maxnrot=4 maxrmsd=4.0 and
-nmm=200 field=mm3 deltae=1 order=2 and
-nconf=200 maxpush=1000 maxtime=600
