@@ -24,8 +24,8 @@ considered by the search algorithm.
 The second example is a rigid, dimethylated naphthalene. The *searchme* code detects this
 and stops with a message stating that searching this molecule is not necessary.
 
-The third example is the prototype Nikki acyclic ligand. This molecule has 21 searchable
-bonds. The *searchme* code detects this and stops with a message that this structure is
+The third example has 21 searchable bonds. The *searchme* code detects this and stops 
+with a message that this structure is
 too flexible to search. This raises an important point.  When the conformational space
 becomes too large, it is not possible to evaluate all of it in a doable time frame.
 In this example, if it is assumed that that each rotatable bond has three possible
